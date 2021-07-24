@@ -1,0 +1,24 @@
+body {
+	background-color: bisque;
+	.str-section {
+		display: flex;
+		width: 50%;
+		margin: 0 auto;
+		height: 90Vh;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		.str-title{
+			color: black;
+			font-size: 55px;
+			flex-basis: 100%;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: auto;
+		}
+		.str {
+			font-size: 70px;
+			color: black;
+		}
+	}
+}
